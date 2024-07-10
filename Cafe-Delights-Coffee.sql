@@ -56,3 +56,15 @@ GROUP BY
    product_type
 ORDER BY
    average_total_bill DESC;
+   SELECT
+   CASE
+       WHEN day_of_week IN ('Saturday', 'Sunday') THEN 'Weekend'
+       ELSE 'Weekday'
+   END AS day_type,
+   SUM(transaction_qty) AS total_transaction_qty
+FROM
+   coffee
+GROUP BY
+   day_type
+ORDER BY
+   total_transaction_qty DESC;
