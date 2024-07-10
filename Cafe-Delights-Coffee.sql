@@ -38,3 +38,12 @@ GROUP BY
 ORDER BY
    Month,
    total_sales DESC;
+   SELECT
+     Hour,
+     SUM(transaction_qty) AS total_quantity
+  FROM
+     coffee
+  GROUP BY
+     Hour
+  ORDER BY
+     total_quantity DESC;
