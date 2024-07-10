@@ -47,3 +47,12 @@ ORDER BY
      Hour
   ORDER BY
      total_quantity DESC;
+     SELECT
+   product_type,
+   AVG(Total_Bill) AS average_total_bill
+FROM
+   coffee
+GROUP BY
+   product_type
+ORDER BY
+   average_total_bill DESC;
