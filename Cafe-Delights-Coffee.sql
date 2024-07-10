@@ -68,3 +68,15 @@ GROUP BY
    day_type
 ORDER BY
    total_transaction_qty DESC;
+   SELECT
+   Month,
+   product_category,
+   SUM(unit_price * transaction_qty) AS total_unit_price
+FROM
+   Popularity_of_Coffee_Sales
+GROUP BY
+   Month,
+   product_category
+ORDER BY
+   Month,
+   product_category;
