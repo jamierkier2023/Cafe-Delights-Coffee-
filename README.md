@@ -10,7 +10,12 @@
 
 This data analysis project aims to provide insights into the sales performance of a Coffee Chain over the course of six months. By analyzing the sales trends according to product type, over the course of six months, we seek to identify trends, make data-driven reccomendations, and gain a deeper understanding of Cafe-Delights-Coffee performance metrics with the end goal of maximizing sales by raising the total revenue by twenty percent.
 
-Analyzing Cafe-Delights-Coffee Sales Months 1-6 Interactive Dashboard can be found [here](https://public.tableau.com/views/MonthlyTrendsintotalunitprice/PercentagesandTotalSalesperMonth?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
+---
+
+Analyzing Cafe-Delights-Coffee Sales Months 1-6 Interactive Tableau Dashboards can be found [here](https://public.tableau.com/views/MonthlyTrendsintotalunitprice/PercentagesandTotalSalesperMonth?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
+
+<img width="500" alt="Percentages and Total Sales per Month" src="https://github.com/user-attachments/assets/49674f0a-7b48-49f3-aae3-1d6754d15060">
+
 
 ### Data Sources
 
@@ -46,8 +51,18 @@ EDA involved exploring the sales data to answer key questions such as:
 Include some interesting code/features worked with
 
 ```sql
-SELECT * FROM table
-WHERE cond = 2;
+SELECT 
+   product_category, 
+   Month, 
+   SUM(Total_Bill) AS total_sales
+FROM 
+   Popularity_of_Coffee_Sales
+GROUP BY 
+   product_category, 
+   Month
+ORDER BY 
+   Month, 
+   total_sales DESC;
 ```
 
 ### Results/Findings
@@ -71,4 +86,11 @@ I had to reduce the number of variables to include in this analysis and did not 
 
 ### References
 1. [Essentials of Marketing Analytics](https://https://www.google.com/books/edition/_/Y1bbzQEACAAJ?hl=en), First Edition by Joseph H. Hair, Jr. & Dana E. Harrison.
+🙂
 
+💻
+
+|Heading1|Heading2|
+|--------|--------|
+|Content|Content2|
+|Python|SQL|
