@@ -10,7 +10,7 @@
 
 This data analysis project aims to provide insights into the sales performance of a Coffee Chain over the course of six months. By analyzing the sales trends according to product type, over the course of six months, we seek to identify trends, make data-driven reccomendations, and gain a deeper understanding of Cafe-Delights-Coffee performance metrics with the end goal of maximizing sales by raising the total revenue by twenty percent.
 
-
+Analyzing Cafe-Delights-Coffee Sales Months 1-6 Interactive Dashboard can be found [here](https://public.tableau.com/views/MonthlyTrendsintotalunitprice/PercentagesandTotalSalesperMonth?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
 ### Data Sources
 
