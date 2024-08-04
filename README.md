@@ -69,10 +69,10 @@ ORDER BY
 
 The analysis results are summarized as follows:
 1. Relying strictly on coffee sales as a measure of growth, there is a consistent ascension of total coffee sales excluding neagative growth between months 1-2.
-2. All the other months demonstrate double-digit sales growth excluding months 5-6 whereign the postive growth is only 7 percent from month 5 to month 6.
-3. There exists a wide gap in sales between months 4-5 of +24 percent. Even though there is positive growth, total coffee sales in month four are lagging considerably.
-4. There is only +7 percent growth in-between months 5-6 which may suggest consistency, but may also indicate stagnation.
-5. There is an upward ascension of growth in the tea category, but the total sales profit percentage - relative to coffee sales- in-between months is considerable low.
+2. All the other months demonstrate double-digit sales growth excluding months 5-6 whereign the positive growth is only 7 percent.
+3. There exists a wide gap in sales between months 4-5 of +24 percent. Even though there is positive growth, total coffee sales in month 4 are lagging considerably.
+4. There is only +7 percent growth in-between months 5-6 which may suggest consistency, but may also indicate stagnation and missed opportunities for month 5.
+5. There is an upward ascension of growth in the tea category, but the total sales profit percentage - relative to coffee sales- in-between months is considerably low.
 
 ### Recommendations
 
