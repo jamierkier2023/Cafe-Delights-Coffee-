@@ -8,7 +8,7 @@
 
 ### Project Overview
 
-This data analysis project aims to provide insights into the sales performance of a Coffee Chain over the course of six months. By analyzing the sales trends according to product type, over the course of six months, we seek to identify trends, make data-driven reccomendations, and gain a deeper understanding of Cafe-Delights-Coffee performance metrics with the end goal of maximizing sales by raising the total revenue by twenty percent.
+This data analysis project aims to provide insights into the sales performance of a Coffee Chain over the course of six months. By analyzing the sales trends according to product type, over the course of six months, I sought to identify trends, make data-driven reccomendations, and gain a deeper understanding of Cafe-Delights-Coffee performance metrics with the end goal of maximizing sales by raising the total revenue by twenty percent.
 
 ---
 
@@ -31,10 +31,12 @@ Sales Data: The primary dataset used for this analysis is the "coffee_shop_sales
 
 ### Data Cleaning/Preparation
 
-In the initial data preperation phase, we performed the following tasks:
-1. Data Loading and inspection
-2. Handling Missing Values
-3. Data Cleaning and Formatting
+In the initial data preperation phase, I performed the following tasks:
+1. Data Loading and inspection in SQLite to define proper variables and observations.
+2. Handling missing values.
+3. Data Cleaning and Formatting by excluding certain variables deemed irrelevent to Data Analysis questions.
+4. Creating five independent tidy-data tables from project file to merge 
+5. Merged tidy-data tables to create Workfile(s) to utilize in Tableau for visual dashboards.
 
 ### Exploratory Data Analysis
 
@@ -48,7 +50,7 @@ EDA involved exploring the sales data to answer key questions such as:
 
 ### Data Analysis
 
-Include some interesting code/features worked with
+SQL code/features worked with:
 
 ```sql
 SELECT 
@@ -76,7 +78,7 @@ The analysis results are summarized as follows:
 
 ### Recommendations
 
-Based on the analysis, we reccomend the folloiwng actions:
+Based on the analysis, I reccomend the folloiwng actions:
 - Cafe Delights Coffee should implement a strategy to boost overall brewed coffee sales on months 2,4, and 5.
 - Decision makers should closely examine the "Average Percentage of Product Type" and "Minimum Average of Total Bill" charts to find opportunities to implement a marketing strategy for a low selling brewed coffee product such as drip coffee and/or premium brewed coffee, or adjusting a pricing strategy to increase sales.
 
@@ -90,7 +92,4 @@ I had to reduce the number of variables to include in this analysis and did not 
 
 💻
 
-|Heading1|Heading2|
-|--------|--------|
-|Content|Content2|
-|Python|SQL|
+
