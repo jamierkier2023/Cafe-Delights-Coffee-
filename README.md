@@ -78,7 +78,7 @@ The analysis results are summarized as follows:
 
 ### Recommendations
 
-Based on the analysis, I reccomend the folloiwng actions:
+Based on the analysis, I recomend the folloiwng actions:
 - Cafe Delights Coffee should implement a strategy to boost overall brewed coffee sales on months 2,4, and 5.
 - Decision makers should closely examine the "Average Percentage of Product Type" and "Minimum Average of Total Bill" charts to find opportunities to implement a marketing strategy for a low selling brewed coffee product such as drip coffee and/or premium brewed coffee, or adjusting a pricing strategy to increase sales.
 
@@ -86,7 +86,7 @@ Based on the analysis, I reccomend the folloiwng actions:
 
 I had to reduce the number of variables to include in this analysis and did not focus on store location/store ID, or the transaction ID of every customer as there are multiple stores and store locations. Aggregation was also utilized to create MIN(average prices) for product categories.
 
-### References
+   ### References
 1. [Essentials of Marketing Analytics](https://www.google.com/books/edition/Essentials_of_Marketing_Analytics/Y1bbzQEACAAJ?hl=en), First Edition by Joseph H. Hair, Jr. & 
     Dana E. Harrison.
    🙂
