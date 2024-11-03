@@ -87,9 +87,9 @@ Based on the analysis, I reccomend the folloiwng actions:
 I had to reduce the number of variables to include in this analysis and did not focus on store location/store ID, or the transaction ID of every customer as there are multiple stores and store locations. Aggregation was also utilized to create MIN(average prices) for product categories.
 
 ### References
-1. [Essentials of Marketing Analytics](https://https://www.google.com/books/edition/_/Y1bbzQEACAAJ?hl=en), First Edition by Joseph H. Hair, Jr. & Dana E. Harrison.
-🙂
-
-💻
+1. [Essentials of Marketing Analytics](https://www.google.com/books/edition/Essentials_of_Marketing_Analytics/Y1bbzQEACAAJ?hl=en), First Edition by Joseph H. Hair, Jr. & 
+    Dana E. Harrison.
+   🙂
+   💻
 
 
